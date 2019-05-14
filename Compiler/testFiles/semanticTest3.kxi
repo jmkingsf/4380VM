@@ -1,0 +1,8 @@
+
+
+void kxi2019 main()
+{
+    int i;
+    switch(i){}
+    if(true)
+}

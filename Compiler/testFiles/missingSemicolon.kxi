@@ -1,0 +1,12 @@
+class Cat{
+    public int variable
+
+    
+}
+
+class Bars {}
+
+void kxi2019 main()
+{
+    Bars bar = new Bars();
+}

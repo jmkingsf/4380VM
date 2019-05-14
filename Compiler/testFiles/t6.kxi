@@ -1,0 +1,17 @@
+class Cat {
+    public int age;
+    private int weight;
+    public void run(int x, int y) {
+        int speed; 
+        int arr[ ]; 
+        speed = 7;
+    }
+    
+    Cat() {} 
+}
+
+void kxi2019 main() { 
+    char c;
+
+    c = 's'; 
+}

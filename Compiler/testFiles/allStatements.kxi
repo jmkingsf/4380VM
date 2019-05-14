@@ -1,0 +1,28 @@
+class Cat{
+}
+
+void kxi2019 main()
+{
+    if(x == y)
+    {
+        while(j==j)
+        {
+            jim == bill;
+        }
+    }else if(x==y){
+        jerry = giveMeFish;
+    }else {
+        jerry = bill;
+    }
+
+    cout << x+ y;
+    cin >> x;
+    switch(bill == joe)
+    {
+        case 'j':
+            bill = jerry;
+        case 'f':
+            break;
+    }
+    return;
+}

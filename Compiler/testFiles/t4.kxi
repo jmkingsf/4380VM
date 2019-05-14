@@ -1,0 +1,4 @@
+class Cat {
+public int age;
+private int weight;
+}

@@ -1,0 +1,109 @@
+class Deque {
+    private int CHUNK = 10;
+    public int Array[] = new int[CHUNK];
+    public int Front;
+    public int Back;
+    public int Size = 0;
+    
+    Deque() {
+
+    }// Allocates a default-size (CHUNK) array
+        
+    public void push_front(int value) {
+        if(isEmpty()){
+            Front = CHUNK/2;
+            Back = Front;
+            Array[Front] = value;
+        }else if(Front != CHUNK){
+            Front = Front - 1;
+            Array[Front] = value;
+        }else {
+            cout << 'f';
+            cout << 'u';
+            cout << 'l';
+            cout << 'l';
+            cout << '\n';
+        }
+        
+        Size = Size + 1;
+    }// Adds new element to the front (left end)
+    
+    public void push_back(int value) {
+        if(isEmpty()){
+            Front = CHUNK/2;
+            Back = Front;
+            Array[Back] = value;
+        }else if(Back != CHUNK) {
+            Back = Back + 1;
+            Array[Back] = value;
+        }else {
+            cout << 'f';
+            cout << 'u';
+            cout << 'l';
+            cout << 'l';
+            cout << '\n';
+        }
+        
+        Size = Size + 1;
+    }// Adds new element to the back (right end)
+    
+    public int front() {
+        if(isEmpty())
+            return -1;
+        return Array[Front];
+    }// Returns a reference to the first used element
+    
+    public int back() {
+        if(isEmpty())
+            return -1;
+        return Array[Back];
+    }// Returns a reference to the last used element
+    
+    public int at(int pos) {
+        if(isEmpty())
+            return -1;
+        return Array[Front+pos];
+    }// Return a reference to the element in position pos
+    
+    public void pop_front() {
+        if(isEmpty() == false){
+            Front = Front + 1;
+        } else {
+            Back = Front;
+            return;
+        }
+        Size = Size - 1;
+    }// "Removes"first deque element(just change front_)
+    
+    public int pop_back() {
+        if(size() != 0){
+            Back = Back - 1;
+        } else {
+            Back = Front;
+            return;
+        }
+        Size = Size - 1;
+    }// "Removes"last deque element(just change back_)
+    
+    public int size() {
+        return Size;
+    }// Returns the # of used items. NOTE:size_tis defined in <cstddef>
+    
+    private bool isEmpty() {
+        return Size == 0;
+    }
+}
+
+void kxi2019 main()
+{
+    Deque queue = new Deque();
+    queue.push_front(312);
+    cout << queue.back();
+    cout << '\n';
+    queue.push_back(-10);
+    cout << queue.back();
+    cout << '\n';
+
+    cout << queue.size();
+    cout << '\n';
+}

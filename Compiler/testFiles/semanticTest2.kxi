@@ -1,0 +1,166 @@
+
+
+class cat{
+    public cat me;
+    public int i;
+    public int c[] = new int[5];
+    //public int f[] = new int[f]; //throws int index error
+    //public bear z[] = new Zebra[3]; //type zebra not defined
+    public int run(int x, cat me){
+        //cat c[] = new cat[5];
+        //cat i = new cat(1);
+        //cin >> i; //should fail
+        cout << this.i; //should be accepted
+        //this.me[1] = me;
+        return this.run(1, me);
+    }
+
+
+
+    public int types(bear hi, fish boo){}
+    //public int types2(doesnotexist hi, fish boo){} //does not exist not defined
+
+    public int licksFish(fish fish){
+        int i;
+        int ii[];
+        //i[i] = i;
+        //this = null;
+        //null = this; // fix this
+        ii = ii;
+        //123 =2;
+        //true = false;
+        //run(i); //find the message
+        //26: message
+    }
+
+    public bool getBoolean(){
+        return true;
+    } //type boolean not defined
+
+    cat(int i)
+    {
+        //1 = 1;//throws invalid op
+        //x = 'h';
+    }
+
+    //cat(){}//should cause dup to be thrown on line 13
+    
+}
+
+class fish{
+    
+
+    fish()
+    {
+
+    }
+
+    public int beEaten(bear eater, fish children[])
+    {
+        return 1;
+    }
+
+    private int beHidden(){}
+
+    public fish produceKid()
+    {
+        return this;
+    }
+
+
+}
+
+class bear{
+
+    bear()
+    {
+
+    }
+
+    public fish eatFish(fish fish)
+    {
+
+    }
+
+    
+}
+
+void kxi2019 main()
+{
+    
+    cat i = new cat(1);
+    int f;
+    fish fatFish;
+    bear hungryBear;
+    bear fitBear;
+    fish fishChildren[] = new fish[1];
+    //fish tuna = new bear();
+    bool yes;
+    //doesnotexist fish; //type not defined
+    bear mam = new bear(); //constructor bear not defined
+    //int d = i/1; //cat not compatible
+    //int e = i*2; //invalid op
+    //int e = i+1; //invalid op
+    //int e = i-1; //invalid op
+    //int e = i; //invalid op
+    int zzzzz = 1+1 + 3+ 2 / 1 + 3 - 1 * 3 + (1) - 1 + (1 / 1 *3 );
+    char letter;
+    
+    
+
+    //int i; //dup error
+    i.run(1, i);
+    
+    //while(f=2){}
+    //1 =1; //invalid operation
+    //if(f = 2) {} //fails because of no bool value
+    //if(i == i && i != i || (f=2) ){}
+    //if(i == i && 2 == i || i==i ){} //2 not comparible with cat
+    //if(i != 2){} //2 not comparible with cat
+    //if(i <= 2){} //2 not comparible with cat
+    //if(i >= 2){} //2 not comparible with cat
+    //if(i > 2){} //2 not comparible with cat
+    //if(i < 2){} //2 not comparible with cat
+    if(true){} //no bool
+    //if(1+2){} // got int
+    if(letter=='c'){}
+    if('c'=='c'){}
+    //if(this.i){} //i not defined in class undefined
+    if(i.run(1, i) == 1){}
+    if(i.getBoolean() == true){} //is bool a valid type?
+    i.run(1/3 +2 - 1, i);
+    //i.run(1/3 +2 - 1, i+i);
+    i.run(i.i, i.me);
+    //if(true && (f = 2)){}
+    if(false == false)
+    if(i == null)
+    //cin >> f = 2;
+
+
+    if(true)
+    {
+        if(false)
+        {
+            if(i.getBoolean())
+            cout << i.i;
+        }
+    }
+    //cin >> 1; //not defined
+    //cout << i; //not defined
+    cout << i.i;
+    //i[1] = 2; //array i not defined
+
+
+    fatFish.beEaten(hungryBear, fishChildren);
+    hungryBear.eatFish(fatFish.produceKid());
+    debug;
+    hungryBear.eatFish(fishChildren[1].produceKid());
+    i.licksFish(hungryBear.eatFish(hungryBear.eatFish(fishChildren[1 - 1])));
+    {
+        i.licksFish(fatFish); //should fail
+
+    }
+
+
+
+}

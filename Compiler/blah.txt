@@ -1,0 +1,70 @@
+function EvalGrammer(grammer, token, i)
+{
+    console.log(grammer)
+    const gToken = grammer[i];
+
+    if(Array.isArray(gToken))
+    {
+        returnVal = EvalGrammer(gToken, token, 0)
+        return returnVal
+    }
+
+    const gMatch = gToken.match
+
+    
+
+    function newGrammerMatch(gMatch)
+    {
+        if(module.exports.Grammers[gMatch])
+        {
+            possibleGrammers = module.exports.CopyGrammer(gMatch)
+            newGrammer = possibleGrammers.find((posGram) => EvalGrammer(posGram, token, 0))
+            if (newGrammer) {
+                //should clean only if new grammer found
+                module.exports.GrammerStack.push(newGrammer)
+                module.exports.cleanGrammer(grammer, i)
+                console.log(`new grammer found ${newGrammer}`)
+                return true
+            }
+
+            console.log("no new grammer")
+            return "NoNewGrammer"
+            // this.GrammerStack.push(this.CurrentGrammer)
+            // this.GrammerStack.push(newGrammer)
+            // return true;
+        } else {
+            return false
+        }
+    }
+
+    function determineMatch(gMatch, token) {
+        if(gMatch == token.Type || gMatch == token.Lexeme)
+        {
+            console.log(`found match: ${gMatch} with ${token.Type}`)
+            module.exports.cleanGrammer(grammer, i)
+            return true
+        } else{
+            
+        }
+    }
+
+    if(newGrammerMatch(gMatch))
+    {
+        return true
+    }
+    
+    if(determineMatch(gMatch, token))
+    {
+        return true
+    }
+
+    if(gToken.optional)
+    {
+        module.exports.cleanGrammer(grammer, i)//no match possible, remove optional param and continue to next index
+        return EvalGrammer(module.exports.GrammerStack[module.exports.GrammerStack.length-1], token, i+1)
+    }else {
+        return false
+    }
+        
+
+}

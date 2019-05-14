@@ -1,0 +1,275 @@
+//most complete syntax test
+
+//test class declaration
+class Cat2 {
+	//test instance variable declarations.
+	public int age;
+	public char tool[];
+	private int ban[];
+	private int weight;
+	
+	private int run()
+	{
+		run();
+		int f;
+	}
+
+	private int execute1 = final.x.w.cool[such]; //field declaration with assignment
+	
+	private int execute2(){
+	 //empty method body
+	
+	}
+	
+	public int execute2(int y){
+		//with variable declaration only
+		Cat2 speed;
+		Cat2 speed1 = fun.stuff; //assignment
+		Cat2 speed3 [];
+		Cat2 speed5 [] = 'h';
+	}
+	
+	public int execute3(int y){
+		//with statement declaration only
+		{
+			//empty statment
+		}
+		
+		{
+			//nested statement
+			{
+			
+			}
+		}
+		
+		if((true)){
+		
+		}
+		
+		while(false){
+		
+		}
+		
+		return;
+		
+		return false;
+		
+		cout << true;
+		cin >> 8343993;
+		
+		//empty switch
+		switch(x){
+		
+		
+		}
+		
+		//with case label
+		switch(x){
+			case +2343: false;
+			case -2343: true;	
+			case '\n': ok;
+			case 0: {
+					if(ok){
+						x = fool.s.w.s;
+					}
+				
+				}
+				
+			case 23: { }
+		}
+		
+		
+		switch(x){
+		
+		
+		}
+		
+		break;
+		
+		//expressions as a statements
+		true;
+		false;
+		null;
+		this;
+		-7282;
+		+3433;
+		'\n';
+		hello;
+	}
+	
+	public int execute4(int y){
+		//with variable and statement declaration
+		
+		//with variable declaration only
+		Cat2 speed;
+		Cat2 speed1 = fun.stuff; //assignment
+		Cat2 speed3 [];
+		Cat2 speed5 [] = 'h';
+		
+		{
+			//empty statment
+		}
+		
+		{
+			//nested statement
+			{
+			
+			}
+		}
+		
+		if((true)){
+		
+		}
+		
+		while(false){
+		
+		}
+		
+		return;
+		
+		return false;
+		
+		cout << true;
+		cin >> 8343993;
+		
+		//empty switch
+		switch(x){
+		
+		
+		}
+		
+		//with case label
+		switch(x){
+			case +2343: false;
+			case -2343: true;	
+			case '\n': ok;
+			case 0: {
+					if(ok){
+						x = fool.s.w.s;
+					}
+				
+				}
+				
+			case 23: { }
+		}
+		
+		
+		switch(x){
+		
+		
+		}
+		
+		break;
+		
+		//expressions as a statements
+		true;
+		false;
+		null;
+		this;
+		-7282;
+		+3433;
+		'\n';
+		hello;
+	}
+	
+	//testing fieedl declaration of a method
+	public void run(int x, char y[]){
+		int speed;
+		int arr[];
+		speed = 7;
+	}
+	
+	//testing constructor
+	Cat2(){} //empty constructor
+	Cat2(int x, Cat2 puf){
+	
+	
+	}
+	Cat2(int x, Cat2 puf){
+		//tested methods above
+	
+	}
+	
+	Cat2(char x, char q[]){
+		//testing with array as parameter in the constructor
+	}
+	
+}
+
+class numerodos{
+ //empty class
+}
+
+void kxi2019 main(){
+//method body
+//varaible declartiosn followed by statements
+	char c;
+	char x[] = eowjr.x.we.sd; 
+	int x = werew.sd.dsf.sdf.l;
+	
+	//test new declarations
+	char xs [] = new char [false]; //with array brackets
+	char xa = new char [x == y];
+	
+	//new declaration with expression argument list
+	char ssd = new char(false, oke, jalsdf.sadf.asdf.sadf, asdf[adf], this, adsf(totally, array, as[d]));
+	
+	//atoi
+	char x = atoi (x[rw]);
+	
+	//itoa
+	char aok = itoa (true);
+	char asdf = itoa (hey);
+	
+	
+//statements
+	{
+	//empty statement
+	} 
+	
+	{
+		true;
+		break;
+		cout << -2343;
+	}
+	true;
+	switch(((ok))){
+	
+	}
+	 //tested some cases in method above
+	 if(totes){
+	 
+	 }
+	 else{
+	 
+	 }
+
+	 if(totes = bill)
+	 {
+
+	 }
+	 
+	 if(totes){
+		x;
+		x = 234;
+	}
+	else{
+		while(false){
+			xe.asdlf.asdf = asd.asdf.adsf.ok;
+		}
+	}
+	
+	//expressionz  testing
+	x = orhlk;
+	true == ok;
+	false && totes;
+	null >= ok;
+	(this || order);
+	this.asdfdas == ok;
+	(2394 >= -2343);
+	('\n' < '2');
+	hello().falsdf >= false;
+	hello(x, re).asdf == this.okeoek >= false;
+	hello.asdfds != order;
+	
+}

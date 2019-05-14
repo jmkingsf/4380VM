@@ -1,0 +1,116 @@
+class Cat {
+	public int age;
+	private int weight;//next line tests empty space
+	
+	//private int stuff[] = 10 //6: found private expecting ;
+	private int stuff[] = 10;
+	public void run(int x[], int y,bool x[], Purple y,char x[], Fish y, Dog x[], Dog Dog) {
+		int speed;
+		int arr[];
+		speed = 7;
+	}
+	Cat(int size,int teeth) {}
+}
+class Buuny {
+	public int age = 5;
+	private int weight;
+	public Fish lives = 9;
+	public int happiness = 10;
+	public void run(int x, int y) {
+		Purple speed;
+		int pos = x+y;
+		speed = speed+pos;
+	}
+	Bunny() {}
+}
+class Horse{
+}
+class Dog{
+	private int speed = 10;
+	public bool happy = true;
+	public int happiness = 10;
+	Cat(){}//this should not work after Semantic Analysis, but should be fine for syntax
+	public void run(int x, int y) {
+		int arr[];
+		while(speed < 1000000){
+			speed = speed + x;
+		}
+		//int test;//can't add more declarations after expressions 38: found int expecting expression
+	}
+	public bool increaseJoy(int j){
+		if (happy){
+			happiness = happiness + j;
+		}
+		else{
+			happiness = happiness - j;
+		}
+	}
+	public int name;
+	//priate bool i;//49: found bool expecting (
+}
+void kxi2019 main() { 
+	int newarray[];
+	int x = new Cat();
+	int x = 3;
+	int y = 4;
+	bool fruit = true;
+	x=8+'a'-4/r && t==true;
+	if (matrix1[0] || matrix2){//here is a comment and above tests comment with nothing in it
+		//print(total);
+		//colcount = row[i]*row2[i];
+		total = 0;
+		//total = matrix[0][i];//only single arrays allowed 62: found [ expecting ;
+		matrix3row.append(total);
+		matrix3.append(matrix3row);
+		print(total,was,here,today);//testing multiple passed parameters
+	}
+	else{
+		print().mar[0];
+	}
+	//func(int);//70: found int expecting expression
+	//for(int i =0;i<10;i++){}//No for loop in language 71: found int expecting expression
+	while(x==y && y<10||x>5){
+		cout<<x;
+		cin>>y;
+		break;
+		return true;
+		switch(x){
+			case -8:
+				c=y;
+			case 'c':
+				{y=x+y;y=x+y;dog=cat;}
+			case 0:
+				c=y;
+			case 0://make sure 0 is only in the symbol table once
+				c=y;
+			case 'c'://same with 'c'
+				c=y;
+		}
+		//**int x = new int();//can't do declarations after expresssions 89: found int expecting expression
+		//x = new int()  //missing ; 91: found x expecting ;
+		x = new int();
+		x = new int[6];
+		x = atoi(x);
+		y = itoa(y);
+		x = ((x)+y-(-8));
+		true;
+		false = true;
+		//x = null\stuff; //98: found \ expecting ;
+		this.toString(str,here).here.g[7].g();
+		3000;
+		+3000;
+		+3000;
+		x = x - -5;
+		'r';
+		you;
+		x+y;
+		x(y).g = k;
+		x[i+11].f(y+x).g = k;
+
+		//=y;//108: found = expecting expression
+
+	}
+}
+
+
+

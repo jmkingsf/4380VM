@@ -1,0 +1,29 @@
+class cat{
+    
+    //cat(int blah, char blah){} //throws dup error
+    //cat(char blah){} //throws dup error
+    //public int dupParam(char blah[], char blah[]){} //throws dup error
+    //public black bill; //should throw type error
+    public int run(){
+        int fish;
+        fish = fish;
+        //int fish; //should throw dup error
+        if(2 == 1)
+        {
+            fish = fish;
+        }
+    }
+
+    // public int run(){} //should throw dup type error
+    public int tom;
+    //public int tom[]; //throws dup error
+    // public int tom[]; //should throw dup error
+}
+
+//class cat{} //should throw dup error
+
+void kxi2019 main()
+{
+    int blood;
+    //int blood[]; //should throw duplicate error
+}

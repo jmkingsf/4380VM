@@ -1,0 +1,42 @@
+class Cat {
+    public int age;
+    private int weight;
+    public void run(int x, int y) {
+        int speed; 
+        int arr[]; 
+        speed = 7;
+        jim = 'f';
+
+        if(tom == jerry)
+        {
+            if(tom == jerry)
+            {   
+                if(tom == jerry)
+                {
+                    if(tom == jerry)
+                    {
+                        tom = jerry;
+                    }
+                }
+                tom = jerry;
+            }
+            if(bill){
+                x = y*3*2*1 * 3 + (2*2) + 1+1;
+            }
+            tom = jerry;
+        }
+    }
+    
+    Cat(int x, int y) {} 
+}
+
+class bill{}
+
+class tom{}
+
+void kxi2019 main() { 
+    char c;
+    john = cat.beaver.chicken;
+
+    c = 's'; 
+}

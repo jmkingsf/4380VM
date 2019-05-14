@@ -1,0 +1,187 @@
+class testClass { 
+    testClass(int num, char x){
+        int n = num - +6;
+        char z = x;
+        int y = num;
+    }
+
+    public int x = -12;
+    public int y = 12;
+    public int z = 12;
+    public char a = 'a';
+    public char b = 'a';
+    private bool yes = false;
+    private int c[] = new int[5];
+    public int d = atoi(z);
+    private char e = itoa(b);
+    public Cat cat;
+
+    public void f(bool yes, int newNum, char letters[]){
+        int m = y;
+        int q = 5;
+        int e;
+        int t;
+        int y;
+        int u;
+        int i;
+        int o;
+        int p;
+        int z;
+        int x;
+        int b;
+        newNum = y+q-e*t/y+1-+6/o*p-z--6+x*b;
+        letters[i] = 'a';
+        //return;
+    }
+
+    private char wierd(){{{{{}}}}}
+}
+
+class Cat {
+    
+
+    public bool isCat(int b){
+        int a = 5;
+        this.c = this.b;
+        //return;
+        this.wierd(5, 'a');
+    }
+
+    public Dog dogFriend;
+    public EmptyClass MTClass;
+    public Cat b;
+    public Cat c;
+    public int y;
+    public bool a[];
+    public justXClass xClass;
+    public int wierd(int y, char x){
+        return this.y + y;
+    }
+
+    public char returnChar(char letters[]){
+        return letters[this.y + this.y];
+    }
+
+    public Dog getDog(){
+        return this.dogFriend;
+    }
+ 
+    Cat(int a, Cat b[]){
+        this.y = a;
+        //this.y[1] = a;
+        b[1] = this.c;
+    }
+ }
+
+class EmptyClass {
+
+ }
+
+class justXClass {
+    justXClass(){
+
+    }
+
+    private int b;
+    public int tryChain(){
+        debug;
+        this.b = null;
+        return;
+    }
+
+    private void shouldNotAccess(){
+        shouldNotAccess();
+        this.b = null;
+        return;
+    }
+}
+
+ class Dog {
+     public Cat catFriend;
+     public Cat getCat(){
+         return this.catFriend;
+     }
+
+     Dog(){}
+ }
+
+void kxi2019 main() {
+    int i = null;
+    int n = 7;
+    char letters[];
+    char q = 'q';
+    Cat b[] = new Cat[5];
+    Cat catArray[] = new Cat[6];
+    Cat x = new Cat(n, b);
+    char c = x.returnChar(letters);
+    testClass TC = new testClass(n, c);
+    Dog d = new Dog();
+    int k = 4 - -6;
+    Cat anotherCat = d.getCat().dogFriend.getCat().dogFriend.catFriend;
+    justXClass xClass = new justXClass();
+
+    //b[1].MTClass = new MTClass();
+    TC.cat.xClass;
+    TC.cat.xClass.tryChain();
+
+    x = d.getCat().dogFriend.getCat().dogFriend.catFriend;
+    d.catFriend = x;
+    x = d.getCat();
+    b = catArray;
+    
+    TC.f(false, n, letters);
+    TC.f(true, x.wierd(k, c), letters);
+    
+    x = catArray[n+k];
+    {{x = catArray[5];}}
+    if(x==b[2]){x = b[2];}else { {{x=x;}}}
+    cout << letters[n + k * 56 / 42];
+    cin >> n + k;
+    switch(5678 / n + k){
+        case 'a' : while(52 > n){ 
+                        if( x == b[3]){
+                            x = b[3];
+                        }
+                        else {
+                            switch(5678 / n + k){
+                                case 'a' : while(52 > n){ 
+                                                if(x == b[3]){
+                                                    x = b[3];
+                                                }
+                                                else { {{{x = b[n+52637-k*n/k]; }}}}
+                                                x = b[4]; 
+                                            }
+                                case 5632 : if(x==b[4]){
+                                                x = b[4];
+                                            }
+                                            else { 
+                                                {{x=catArray[5];}}
+                                            }
+                                } 
+                        } 
+                        x = d.getCat().dogFriend.getCat().dogFriend.catFriend; 
+                    }
+        case 5632 : if(x==b[5678 / n + k]){
+                        x = d.getCat().dogFriend.getCat().dogFriend.catFriend;
+                    } else {{{x=d.getCat().dogFriend.getCat().dogFriend.catFriend;}}}
+    }
+    switch(d.getCat().dogFriend.getCat().dogFriend.catFriend){
+        
+    }
+    break;
+    (n + k) > 72 = true;
+    true;
+    false;
+    null;
+    true != false;
+    62 >= n + k;
+    false || false;
+    5;
+    5 > 65352;
+    'z';
+    true && false;
+   
+    x = new Cat(n, b);
+    catArray = b;
+    x.y = 8;
+} 

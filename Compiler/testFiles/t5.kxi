@@ -1,0 +1,9 @@
+class Cat {
+    public void run(int x, int y) {
+        int speed;
+        int arr[ ];
+    }
+
+    public int candy;
+
+}

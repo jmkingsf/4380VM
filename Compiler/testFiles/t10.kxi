@@ -1,0 +1,22 @@
+class Cat{
+    public int variable;
+    public int arr[];
+    public int myFunc(int x){
+        variable = x;
+        return 1;
+    }
+
+    
+}
+
+class Bars {}
+
+void kxi2019 main()
+{
+    Bars bar = itoa(1);
+    Bars bar = atoi(1);
+    Bars bar = new Bars();
+    {
+        
+    }
+}

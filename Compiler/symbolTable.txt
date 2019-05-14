@@ -1,0 +1,4089 @@
+{
+  "t100": {
+    "scope": "g",
+    "value": "int",
+    "kind": "type",
+    "key": "t100"
+  },
+  "t101": {
+    "scope": "g",
+    "value": "char",
+    "kind": "type",
+    "key": "t101"
+  },
+  "t102": {
+    "scope": "g",
+    "value": "bool",
+    "kind": "type",
+    "key": "t102"
+  },
+  "t103": {
+    "scope": "g",
+    "value": "void",
+    "kind": "type",
+    "key": "t103"
+  },
+  "t104": {
+    "scope": "g",
+    "value": "sym",
+    "kind": "type",
+    "key": "t104"
+  },
+  "b105": {
+    "scope": "g",
+    "value": "true",
+    "kind": "bool",
+    "key": "b105"
+  },
+  "b106": {
+    "scope": "g",
+    "value": "false",
+    "kind": "bool",
+    "key": "b106"
+  },
+  "i107": {
+    "scope": "g",
+    "value": "null",
+    "kind": "int",
+    "key": "i107"
+  },
+  "c108": {
+    "scope": "g",
+    "value": "iTree",
+    "kind": "class",
+    "data": {
+      "modifier": "public",
+      "type": "iTree"
+    },
+    "key": "c108",
+    "size": 12
+  },
+  "h109": {
+    "scope": "g.iTree",
+    "value": "LUE",
+    "kind": "ivar",
+    "data": {
+      "type": "int",
+      "modifier": "private",
+      "name": "LUE"
+    },
+    "offset": 0,
+    "key": "h109"
+  },
+  "i110": {
+    "scope": "g",
+    "value": "42",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i110"
+  },
+  "h111": {
+    "scope": "g.iTree",
+    "value": "root",
+    "kind": "ivar",
+    "data": {
+      "type": "iNode",
+      "modifier": "private",
+      "name": "root"
+    },
+    "offset": 4,
+    "key": "h111"
+  },
+  "h112": {
+    "scope": "g.iTree",
+    "value": "first",
+    "kind": "ivar",
+    "data": {
+      "type": "bool",
+      "modifier": "private",
+      "name": "first"
+    },
+    "offset": 8,
+    "key": "h112"
+  },
+  "p113": {
+    "scope": "g.iTree.mod",
+    "value": "i",
+    "kind": "param",
+    "data": {
+      "type": "int",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p113"
+  },
+  "p114": {
+    "scope": "g.iTree.mod",
+    "value": "j",
+    "kind": "param",
+    "data": {
+      "type": "int",
+      "modifier": "private"
+    },
+    "offset": 4,
+    "key": "p114"
+  },
+  "m115": {
+    "scope": "g.iTree",
+    "value": "mod",
+    "kind": "method",
+    "data": {
+      "type": "int",
+      "modifier": "private",
+      "name": "mod",
+      "returntype": "int",
+      "parameters": [
+        "p113",
+        "p114"
+      ]
+    },
+    "key": "m115"
+  },
+  "l116": {
+    "scope": "g.iTree.mod",
+    "value": "k",
+    "kind": "lvar",
+    "data": {
+      "modifier": "private",
+      "type": "int"
+    },
+    "offset": 8,
+    "key": "l116"
+  },
+  "p117": {
+    "scope": "g.iTree.gcd",
+    "value": "a",
+    "kind": "param",
+    "data": {
+      "type": "int",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p117"
+  },
+  "p118": {
+    "scope": "g.iTree.gcd",
+    "value": "b",
+    "kind": "param",
+    "data": {
+      "type": "int",
+      "modifier": "private"
+    },
+    "offset": 4,
+    "key": "p118"
+  },
+  "m119": {
+    "scope": "g.iTree",
+    "value": "gcd",
+    "kind": "method",
+    "data": {
+      "type": "int",
+      "modifier": "public",
+      "name": "gcd",
+      "returntype": "int",
+      "parameters": [
+        "p117",
+        "p118"
+      ]
+    },
+    "key": "m119"
+  },
+  "i120": {
+    "scope": "g",
+    "value": "0",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i120"
+  },
+  "x121": {
+    "scope": "g.iTree",
+    "value": "iTree",
+    "kind": "xConstructor",
+    "data": {
+      "returntype": "iTree",
+      "type": "iTree",
+      "modifier": "public",
+      "parameters": []
+    },
+    "key": "x121"
+  },
+  "p122": {
+    "scope": "g.iTree.fib",
+    "value": "root",
+    "kind": "param",
+    "data": {
+      "type": "int",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p122"
+  },
+  "m123": {
+    "scope": "g.iTree",
+    "value": "fib",
+    "kind": "method",
+    "data": {
+      "type": "int",
+      "modifier": "public",
+      "name": "fib",
+      "returntype": "int",
+      "parameters": [
+        "p122"
+      ]
+    },
+    "key": "m123"
+  },
+  "i124": {
+    "scope": "g",
+    "value": "0",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i124"
+  },
+  "i125": {
+    "scope": "g",
+    "value": "0",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i125"
+  },
+  "i126": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i126"
+  },
+  "i127": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i127"
+  },
+  "i128": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i128"
+  },
+  "i129": {
+    "scope": "g",
+    "value": "2",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i129"
+  },
+  "p130": {
+    "scope": "g.iTree.add",
+    "value": "key",
+    "kind": "param",
+    "data": {
+      "type": "char",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p130"
+  },
+  "m131": {
+    "scope": "g.iTree",
+    "value": "add",
+    "kind": "method",
+    "data": {
+      "type": "bool",
+      "modifier": "public",
+      "name": "add",
+      "returntype": "bool",
+      "parameters": [
+        "p130"
+      ]
+    },
+    "key": "m131"
+  },
+  "p132": {
+    "scope": "g.iTree.insert",
+    "value": "key",
+    "kind": "param",
+    "data": {
+      "type": "char",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p132"
+  },
+  "p133": {
+    "scope": "g.iTree.insert",
+    "value": "node",
+    "kind": "param",
+    "data": {
+      "type": "iNode",
+      "modifier": "private"
+    },
+    "offset": 4,
+    "key": "p133"
+  },
+  "m134": {
+    "scope": "g.iTree",
+    "value": "insert",
+    "kind": "method",
+    "data": {
+      "type": "bool",
+      "modifier": "private",
+      "name": "insert",
+      "returntype": "bool",
+      "parameters": [
+        "p132",
+        "p133"
+      ]
+    },
+    "key": "m134"
+  },
+  "m135": {
+    "scope": "g.iTree",
+    "value": "print",
+    "kind": "method",
+    "data": {
+      "type": "void",
+      "modifier": "public",
+      "name": "print",
+      "returntype": "void",
+      "parameters": []
+    },
+    "key": "m135"
+  },
+  "c136": {
+    "scope": "g",
+    "value": "'\\n'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c136"
+  },
+  "p137": {
+    "scope": "g.iTree.inorder",
+    "value": "node",
+    "kind": "param",
+    "data": {
+      "type": "iNode",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p137"
+  },
+  "m138": {
+    "scope": "g.iTree",
+    "value": "inorder",
+    "kind": "method",
+    "data": {
+      "type": "void",
+      "modifier": "private",
+      "name": "inorder",
+      "returntype": "void",
+      "parameters": [
+        "p137"
+      ]
+    },
+    "key": "m138"
+  },
+  "p139": {
+    "scope": "g.iTree.visit",
+    "value": "node",
+    "kind": "param",
+    "data": {
+      "type": "iNode",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p139"
+  },
+  "m140": {
+    "scope": "g.iTree",
+    "value": "visit",
+    "kind": "method",
+    "data": {
+      "type": "void",
+      "modifier": "private",
+      "name": "visit",
+      "returntype": "void",
+      "parameters": [
+        "p139"
+      ]
+    },
+    "key": "m140"
+  },
+  "c141": {
+    "scope": "g",
+    "value": "' '",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c141"
+  },
+  "c142": {
+    "scope": "g",
+    "value": "','",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c142"
+  },
+  "c143": {
+    "scope": "g",
+    "value": "'('",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c143"
+  },
+  "c144": {
+    "scope": "g",
+    "value": "','",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c144"
+  },
+  "c145": {
+    "scope": "g",
+    "value": "')'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c145"
+  },
+  "c146": {
+    "scope": "g",
+    "value": "iNode",
+    "kind": "class",
+    "data": {
+      "modifier": "public",
+      "type": "iNode"
+    },
+    "key": "c146",
+    "size": 16
+  },
+  "h147": {
+    "scope": "g.iNode",
+    "value": "root",
+    "kind": "ivar",
+    "data": {
+      "type": "char",
+      "modifier": "public",
+      "name": "root"
+    },
+    "offset": 0,
+    "key": "h147"
+  },
+  "h148": {
+    "scope": "g.iNode",
+    "value": "cnt",
+    "kind": "ivar",
+    "data": {
+      "type": "int",
+      "modifier": "public",
+      "name": "cnt"
+    },
+    "offset": 4,
+    "key": "h148"
+  },
+  "i149": {
+    "scope": "g",
+    "value": "0",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i149"
+  },
+  "h150": {
+    "scope": "g.iNode",
+    "value": "left",
+    "kind": "ivar",
+    "data": {
+      "type": "iNode",
+      "modifier": "public",
+      "name": "left"
+    },
+    "offset": 8,
+    "key": "h150"
+  },
+  "h151": {
+    "scope": "g.iNode",
+    "value": "right",
+    "kind": "ivar",
+    "data": {
+      "type": "iNode",
+      "modifier": "public",
+      "name": "right"
+    },
+    "offset": 12,
+    "key": "h151"
+  },
+  "p152": {
+    "scope": "g.iNode.iNode",
+    "value": "key",
+    "kind": "param",
+    "data": {
+      "type": "char",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p152"
+  },
+  "x153": {
+    "scope": "g.iNode",
+    "value": "iNode",
+    "kind": "xConstructor",
+    "data": {
+      "returntype": "iNode",
+      "type": "iNode",
+      "modifier": "public",
+      "parameters": [
+        "p152"
+      ]
+    },
+    "key": "x153"
+  },
+  "i154": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i154"
+  },
+  "m155": {
+    "scope": "g.iNode",
+    "value": "inc",
+    "kind": "method",
+    "data": {
+      "type": "void",
+      "modifier": "public",
+      "name": "inc",
+      "returntype": "void",
+      "parameters": []
+    },
+    "key": "m155"
+  },
+  "i156": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i156"
+  },
+  "c157": {
+    "scope": "g",
+    "value": "Message",
+    "kind": "class",
+    "data": {
+      "modifier": "public",
+      "type": "Message"
+    },
+    "key": "c157",
+    "size": 12
+  },
+  "h158": {
+    "scope": "g.Message",
+    "value": "msg",
+    "kind": "ivar",
+    "data": {
+      "type": "@:char",
+      "modifier": "private",
+      "name": "msg"
+    },
+    "offset": 0,
+    "key": "h158"
+  },
+  "h159": {
+    "scope": "g.Message",
+    "value": "i",
+    "kind": "ivar",
+    "data": {
+      "type": "int",
+      "modifier": "private",
+      "name": "i"
+    },
+    "offset": 4,
+    "key": "h159"
+  },
+  "h160": {
+    "scope": "g.Message",
+    "value": "end",
+    "kind": "ivar",
+    "data": {
+      "type": "int",
+      "modifier": "private",
+      "name": "end"
+    },
+    "offset": 8,
+    "key": "h160"
+  },
+  "x161": {
+    "scope": "g.Message",
+    "value": "Message",
+    "kind": "xConstructor",
+    "data": {
+      "returntype": "Message",
+      "type": "Message",
+      "modifier": "public",
+      "parameters": []
+    },
+    "key": "x161"
+  },
+  "i162": {
+    "scope": "g",
+    "value": "100",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i162"
+  },
+  "i163": {
+    "scope": "g",
+    "value": "0",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i163"
+  },
+  "c164": {
+    "scope": "g",
+    "value": "'I'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c164"
+  },
+  "i165": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i165"
+  },
+  "c166": {
+    "scope": "g",
+    "value": "'n'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c166"
+  },
+  "i167": {
+    "scope": "g",
+    "value": "2",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i167"
+  },
+  "c168": {
+    "scope": "g",
+    "value": "'p'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c168"
+  },
+  "i169": {
+    "scope": "g",
+    "value": "3",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i169"
+  },
+  "c170": {
+    "scope": "g",
+    "value": "'u'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c170"
+  },
+  "i171": {
+    "scope": "g",
+    "value": "4",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i171"
+  },
+  "c172": {
+    "scope": "g",
+    "value": "'t'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c172"
+  },
+  "i173": {
+    "scope": "g",
+    "value": "5",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i173"
+  },
+  "c174": {
+    "scope": "g",
+    "value": "' '",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c174"
+  },
+  "i175": {
+    "scope": "g",
+    "value": "6",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i175"
+  },
+  "c176": {
+    "scope": "g",
+    "value": "'E'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c176"
+  },
+  "i177": {
+    "scope": "g",
+    "value": "7",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i177"
+  },
+  "c178": {
+    "scope": "g",
+    "value": "'l'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c178"
+  },
+  "i179": {
+    "scope": "g",
+    "value": "8",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i179"
+  },
+  "c180": {
+    "scope": "g",
+    "value": "'e'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c180"
+  },
+  "i181": {
+    "scope": "g",
+    "value": "9",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i181"
+  },
+  "c182": {
+    "scope": "g",
+    "value": "'m'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c182"
+  },
+  "i183": {
+    "scope": "g",
+    "value": "10",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i183"
+  },
+  "c184": {
+    "scope": "g",
+    "value": "'e'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c184"
+  },
+  "i185": {
+    "scope": "g",
+    "value": "11",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i185"
+  },
+  "c186": {
+    "scope": "g",
+    "value": "'n'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c186"
+  },
+  "i187": {
+    "scope": "g",
+    "value": "12",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i187"
+  },
+  "c188": {
+    "scope": "g",
+    "value": "'t'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c188"
+  },
+  "i189": {
+    "scope": "g",
+    "value": "13",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i189"
+  },
+  "c190": {
+    "scope": "g",
+    "value": "':'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c190"
+  },
+  "i191": {
+    "scope": "g",
+    "value": "14",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i191"
+  },
+  "c192": {
+    "scope": "g",
+    "value": "'D'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c192"
+  },
+  "i193": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i193"
+  },
+  "c194": {
+    "scope": "g",
+    "value": "'u'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c194"
+  },
+  "i195": {
+    "scope": "g",
+    "value": "2",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i195"
+  },
+  "c196": {
+    "scope": "g",
+    "value": "'p'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c196"
+  },
+  "i197": {
+    "scope": "g",
+    "value": "3",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i197"
+  },
+  "c198": {
+    "scope": "g",
+    "value": "'l'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c198"
+  },
+  "i199": {
+    "scope": "g",
+    "value": "4",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i199"
+  },
+  "c200": {
+    "scope": "g",
+    "value": "'i'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c200"
+  },
+  "i201": {
+    "scope": "g",
+    "value": "5",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i201"
+  },
+  "c202": {
+    "scope": "g",
+    "value": "'c'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c202"
+  },
+  "i203": {
+    "scope": "g",
+    "value": "6",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i203"
+  },
+  "c204": {
+    "scope": "g",
+    "value": "'a'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c204"
+  },
+  "i205": {
+    "scope": "g",
+    "value": "7",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i205"
+  },
+  "c206": {
+    "scope": "g",
+    "value": "'t'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c206"
+  },
+  "i207": {
+    "scope": "g",
+    "value": "8",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i207"
+  },
+  "c208": {
+    "scope": "g",
+    "value": "'e'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c208"
+  },
+  "i209": {
+    "scope": "g",
+    "value": "9",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i209"
+  },
+  "c210": {
+    "scope": "g",
+    "value": "' '",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c210"
+  },
+  "i211": {
+    "scope": "g",
+    "value": "24",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i211"
+  },
+  "c212": {
+    "scope": "g",
+    "value": "'E'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c212"
+  },
+  "i213": {
+    "scope": "g",
+    "value": "25",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i213"
+  },
+  "c214": {
+    "scope": "g",
+    "value": "'n'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c214"
+  },
+  "i215": {
+    "scope": "g",
+    "value": "26",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i215"
+  },
+  "c216": {
+    "scope": "g",
+    "value": "'t'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c216"
+  },
+  "i217": {
+    "scope": "g",
+    "value": "27",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i217"
+  },
+  "c218": {
+    "scope": "g",
+    "value": "'e'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c218"
+  },
+  "i219": {
+    "scope": "g",
+    "value": "28",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i219"
+  },
+  "c220": {
+    "scope": "g",
+    "value": "'r'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c220"
+  },
+  "p221": {
+    "scope": "g.Message.print",
+    "value": "i",
+    "kind": "param",
+    "data": {
+      "type": "int",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p221"
+  },
+  "p222": {
+    "scope": "g.Message.print",
+    "value": "end",
+    "kind": "param",
+    "data": {
+      "type": "int",
+      "modifier": "private"
+    },
+    "offset": 4,
+    "key": "p222"
+  },
+  "m223": {
+    "scope": "g.Message",
+    "value": "print",
+    "kind": "method",
+    "data": {
+      "type": "void",
+      "modifier": "private",
+      "name": "print",
+      "returntype": "void",
+      "parameters": [
+        "p221",
+        "p222"
+      ]
+    },
+    "key": "m223"
+  },
+  "i224": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i224"
+  },
+  "p225": {
+    "scope": "g.Message.msg1",
+    "value": "elm",
+    "kind": "param",
+    "data": {
+      "type": "char",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p225"
+  },
+  "m226": {
+    "scope": "g.Message",
+    "value": "msg1",
+    "kind": "method",
+    "data": {
+      "type": "void",
+      "modifier": "public",
+      "name": "msg1",
+      "returntype": "void",
+      "parameters": [
+        "p225"
+      ]
+    },
+    "key": "m226"
+  },
+  "i227": {
+    "scope": "g",
+    "value": "0",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i227"
+  },
+  "i228": {
+    "scope": "g",
+    "value": "13",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i228"
+  },
+  "c229": {
+    "scope": "g",
+    "value": "'\\n'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c229"
+  },
+  "p230": {
+    "scope": "g.Message.msg2",
+    "value": "elm",
+    "kind": "param",
+    "data": {
+      "type": "char",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p230"
+  },
+  "m231": {
+    "scope": "g.Message",
+    "value": "msg2",
+    "kind": "method",
+    "data": {
+      "type": "bool",
+      "modifier": "public",
+      "name": "msg2",
+      "returntype": "bool",
+      "parameters": [
+        "p230"
+      ]
+    },
+    "key": "m231"
+  },
+  "i232": {
+    "scope": "g",
+    "value": "14",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i232"
+  },
+  "i233": {
+    "scope": "g",
+    "value": "8",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i233"
+  },
+  "i234": {
+    "scope": "g",
+    "value": "5",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i234"
+  },
+  "i235": {
+    "scope": "g",
+    "value": "6",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i235"
+  },
+  "i236": {
+    "scope": "g",
+    "value": "13",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i236"
+  },
+  "c237": {
+    "scope": "g",
+    "value": "'\\n'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c237"
+  },
+  "m238": {
+    "scope": "g.Message",
+    "value": "msg3",
+    "kind": "method",
+    "data": {
+      "type": "int",
+      "modifier": "public",
+      "name": "msg3",
+      "returntype": "int",
+      "parameters": []
+    },
+    "key": "m238"
+  },
+  "i239": {
+    "scope": "g",
+    "value": "24",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i239"
+  },
+  "i240": {
+    "scope": "g",
+    "value": "28",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i240"
+  },
+  "i241": {
+    "scope": "g",
+    "value": "5",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i241"
+  },
+  "i242": {
+    "scope": "g",
+    "value": "6",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i242"
+  },
+  "i243": {
+    "scope": "g",
+    "value": "13",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i243"
+  },
+  "c244": {
+    "scope": "g",
+    "value": "Syntax",
+    "kind": "class",
+    "data": {
+      "modifier": "public",
+      "type": "Syntax"
+    },
+    "key": "c244",
+    "size": 12
+  },
+  "h245": {
+    "scope": "g.Syntax",
+    "value": "i",
+    "kind": "ivar",
+    "data": {
+      "type": "int",
+      "modifier": "private",
+      "name": "i"
+    },
+    "offset": 0,
+    "key": "h245"
+  },
+  "i246": {
+    "scope": "g",
+    "value": "7",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i246"
+  },
+  "h247": {
+    "scope": "g.Syntax",
+    "value": "c",
+    "kind": "ivar",
+    "data": {
+      "type": "char",
+      "modifier": "private",
+      "name": "c"
+    },
+    "offset": 4,
+    "key": "h247"
+  },
+  "c248": {
+    "scope": "g",
+    "value": "'a'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c248"
+  },
+  "h249": {
+    "scope": "g.Syntax",
+    "value": "b",
+    "kind": "ivar",
+    "data": {
+      "type": "bool",
+      "modifier": "private",
+      "name": "b"
+    },
+    "offset": 8,
+    "key": "h249"
+  },
+  "p250": {
+    "scope": "g.Syntax.Syntax",
+    "value": "j",
+    "kind": "param",
+    "data": {
+      "type": "int",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p250"
+  },
+  "p251": {
+    "scope": "g.Syntax.Syntax",
+    "value": "d",
+    "kind": "param",
+    "data": {
+      "type": "char",
+      "modifier": "private"
+    },
+    "offset": 4,
+    "key": "p251"
+  },
+  "x252": {
+    "scope": "g.Syntax",
+    "value": "Syntax",
+    "kind": "xConstructor",
+    "data": {
+      "returntype": "Syntax",
+      "type": "Syntax",
+      "modifier": "public",
+      "parameters": [
+        "p250",
+        "p251"
+      ]
+    },
+    "key": "x252"
+  },
+  "m253": {
+    "scope": "g.Syntax",
+    "value": "checkit",
+    "kind": "method",
+    "data": {
+      "type": "void",
+      "modifier": "public",
+      "name": "checkit",
+      "returntype": "void",
+      "parameters": []
+    },
+    "key": "m253"
+  },
+  "l254": {
+    "scope": "g.Syntax.checkit",
+    "value": "cc",
+    "kind": "lvar",
+    "data": {
+      "modifier": "private",
+      "type": "@:char"
+    },
+    "offset": 0,
+    "key": "l254"
+  },
+  "i255": {
+    "scope": "g",
+    "value": "1000",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i255"
+  },
+  "l256": {
+    "scope": "g.Syntax.checkit",
+    "value": "ii",
+    "kind": "lvar",
+    "data": {
+      "modifier": "private",
+      "type": "@:int"
+    },
+    "offset": 4,
+    "key": "l256"
+  },
+  "i257": {
+    "scope": "g",
+    "value": "512",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i257"
+  },
+  "l258": {
+    "scope": "g.Syntax.checkit",
+    "value": "ss",
+    "kind": "lvar",
+    "data": {
+      "modifier": "private",
+      "type": "@:Syntax"
+    },
+    "offset": 8,
+    "key": "l258"
+  },
+  "i259": {
+    "scope": "g",
+    "value": "256",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i259"
+  },
+  "i260": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i260"
+  },
+  "i261": {
+    "scope": "g",
+    "value": "2",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i261"
+  },
+  "i262": {
+    "scope": "g",
+    "value": "31",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i262"
+  },
+  "i263": {
+    "scope": "g",
+    "value": "100",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i263"
+  },
+  "i264": {
+    "scope": "g",
+    "value": "5",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i264"
+  },
+  "i265": {
+    "scope": "g",
+    "value": "10",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i265"
+  },
+  "i266": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i266"
+  },
+  "i267": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i267"
+  },
+  "i268": {
+    "scope": "g",
+    "value": "4",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i268"
+  },
+  "i269": {
+    "scope": "g",
+    "value": "5",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i269"
+  },
+  "i270": {
+    "scope": "g",
+    "value": "5000",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i270"
+  },
+  "i271": {
+    "scope": "g",
+    "value": "5",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i271"
+  },
+  "i272": {
+    "scope": "g",
+    "value": "0",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i272"
+  },
+  "i273": {
+    "scope": "g",
+    "value": "0",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i273"
+  },
+  "i274": {
+    "scope": "g",
+    "value": "7",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i274"
+  },
+  "c275": {
+    "scope": "g",
+    "value": "'c'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c275"
+  },
+  "i276": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i276"
+  },
+  "i277": {
+    "scope": "g",
+    "value": "7",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i277"
+  },
+  "i278": {
+    "scope": "g",
+    "value": "3",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i278"
+  },
+  "c279": {
+    "scope": "g",
+    "value": "'c'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c279"
+  },
+  "p280": {
+    "scope": "g.Syntax.which",
+    "value": "i",
+    "kind": "param",
+    "data": {
+      "type": "int",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p280"
+  },
+  "m281": {
+    "scope": "g.Syntax",
+    "value": "which",
+    "kind": "method",
+    "data": {
+      "type": "int",
+      "modifier": "public",
+      "name": "which",
+      "returntype": "int",
+      "parameters": [
+        "p280"
+      ]
+    },
+    "key": "m281"
+  },
+  "c282": {
+    "scope": "g",
+    "value": "Butterfly",
+    "kind": "class",
+    "data": {
+      "modifier": "public",
+      "type": "Butterfly"
+    },
+    "key": "c282",
+    "size": 8
+  },
+  "h283": {
+    "scope": "g.Butterfly",
+    "value": "age",
+    "kind": "ivar",
+    "data": {
+      "type": "int",
+      "modifier": "private",
+      "name": "age"
+    },
+    "offset": 0,
+    "key": "h283"
+  },
+  "i284": {
+    "scope": "g",
+    "value": "42",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i284"
+  },
+  "h285": {
+    "scope": "g.Butterfly",
+    "value": "type",
+    "kind": "ivar",
+    "data": {
+      "type": "char",
+      "modifier": "private",
+      "name": "type"
+    },
+    "offset": 4,
+    "key": "h285"
+  },
+  "c286": {
+    "scope": "g",
+    "value": "'m'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c286"
+  },
+  "p287": {
+    "scope": "g.Butterfly.Butterfly",
+    "value": "age",
+    "kind": "param",
+    "data": {
+      "type": "int",
+      "modifier": "private"
+    },
+    "offset": 0,
+    "key": "p287"
+  },
+  "p288": {
+    "scope": "g.Butterfly.Butterfly",
+    "value": "type",
+    "kind": "param",
+    "data": {
+      "type": "char",
+      "modifier": "private"
+    },
+    "offset": 4,
+    "key": "p288"
+  },
+  "x289": {
+    "scope": "g.Butterfly",
+    "value": "Butterfly",
+    "kind": "xConstructor",
+    "data": {
+      "returntype": "Butterfly",
+      "type": "Butterfly",
+      "modifier": "public",
+      "parameters": [
+        "p287",
+        "p288"
+      ]
+    },
+    "key": "x289"
+  },
+  "c290": {
+    "scope": "g",
+    "value": "'\\n'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c290"
+  },
+  "c291": {
+    "scope": "g",
+    "value": "'\\n'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c291"
+  },
+  "m292": {
+    "scope": "g.Butterfly",
+    "value": "nest",
+    "kind": "method",
+    "data": {
+      "type": "void",
+      "modifier": "public",
+      "name": "nest",
+      "returntype": "void",
+      "parameters": []
+    },
+    "key": "m292"
+  },
+  "c293": {
+    "scope": "g",
+    "value": "'\\n'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c293"
+  },
+  "c294": {
+    "scope": "g",
+    "value": "'\\n'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c294"
+  },
+  "i295": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i295"
+  },
+  "c296": {
+    "scope": "g",
+    "value": "'a'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c296"
+  },
+  "i297": {
+    "scope": "g",
+    "value": "2",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i297"
+  },
+  "f298": {
+    "scope": "g",
+    "value": "main",
+    "kind": "fMain",
+    "data": {
+      "returntype": "void"
+    },
+    "key": "f298"
+  },
+  "l299": {
+    "scope": "g.main",
+    "value": "nl",
+    "kind": "lvar",
+    "data": {
+      "modifier": "private",
+      "type": "char"
+    },
+    "offset": 0,
+    "key": "l299"
+  },
+  "l300": {
+    "scope": "g.main",
+    "value": "key",
+    "kind": "lvar",
+    "data": {
+      "modifier": "private",
+      "type": "char"
+    },
+    "offset": 4,
+    "key": "l300"
+  },
+  "l301": {
+    "scope": "g.main",
+    "value": "tree",
+    "kind": "lvar",
+    "data": {
+      "modifier": "private",
+      "type": "iTree"
+    },
+    "offset": 8,
+    "key": "l301"
+  },
+  "l302": {
+    "scope": "g.main",
+    "value": "data",
+    "kind": "lvar",
+    "data": {
+      "modifier": "private",
+      "type": "@:int"
+    },
+    "offset": 12,
+    "key": "l302"
+  },
+  "i303": {
+    "scope": "g",
+    "value": "90",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i303"
+  },
+  "l304": {
+    "scope": "g.main",
+    "value": "cnt",
+    "kind": "lvar",
+    "data": {
+      "modifier": "private",
+      "type": "int"
+    },
+    "offset": 16,
+    "key": "l304"
+  },
+  "i305": {
+    "scope": "g",
+    "value": "0",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i305"
+  },
+  "l306": {
+    "scope": "g.main",
+    "value": "i",
+    "kind": "lvar",
+    "data": {
+      "modifier": "private",
+      "type": "int"
+    },
+    "offset": 20,
+    "key": "l306"
+  },
+  "i307": {
+    "scope": "g",
+    "value": "0",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i307"
+  },
+  "l308": {
+    "scope": "g.main",
+    "value": "msg",
+    "kind": "lvar",
+    "data": {
+      "modifier": "private",
+      "type": "Message"
+    },
+    "offset": 24,
+    "key": "l308"
+  },
+  "l309": {
+    "scope": "g.main",
+    "value": "bff",
+    "kind": "lvar",
+    "data": {
+      "modifier": "private",
+      "type": "Butterfly"
+    },
+    "offset": 28,
+    "key": "l309"
+  },
+  "i310": {
+    "scope": "g",
+    "value": "37",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i310"
+  },
+  "c311": {
+    "scope": "g",
+    "value": "'g'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c311"
+  },
+  "c312": {
+    "scope": "g",
+    "value": "'\\n'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c312"
+  },
+  "c313": {
+    "scope": "g",
+    "value": "'!'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c313"
+  },
+  "i314": {
+    "scope": "g",
+    "value": "30",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i314"
+  },
+  "i315": {
+    "scope": "g",
+    "value": "3",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i315"
+  },
+  "i316": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i316"
+  },
+  "i317": {
+    "scope": "g",
+    "value": "3",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i317"
+  },
+  "i318": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i318"
+  },
+  "i319": {
+    "scope": "g",
+    "value": "2",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i319"
+  },
+  "i320": {
+    "scope": "g",
+    "value": "3",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i320"
+  },
+  "i321": {
+    "scope": "g",
+    "value": "2",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i321"
+  },
+  "i322": {
+    "scope": "g",
+    "value": "3",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i322"
+  },
+  "i323": {
+    "scope": "g",
+    "value": "3",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i323"
+  },
+  "i324": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i324"
+  },
+  "i325": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i325"
+  },
+  "c326": {
+    "scope": "g",
+    "value": "'\\n'",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c326"
+  },
+  "i327": {
+    "scope": "g",
+    "value": "3",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i327"
+  },
+  "c328": {
+    "scope": "g",
+    "value": "','",
+    "kind": "char",
+    "data": {
+      "type": "char",
+      "kind": "iLiteral"
+    },
+    "key": "c328"
+  },
+  "i329": {
+    "scope": "g",
+    "value": "1",
+    "kind": "int",
+    "data": {
+      "type": "int",
+      "kind": "iLiteral"
+    },
+    "key": "i329"
+  },
+  "t330": {
+    "scope": "g.iTree.mod",
+    "value": "i / j",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t330",
+    "offset": 12
+  },
+  "t331": {
+    "scope": "g.iTree.mod",
+    "value": "j * k",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t331",
+    "offset": 16
+  },
+  "t332": {
+    "scope": "g.iTree.mod",
+    "value": "i - j * k",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t332",
+    "offset": 20
+  },
+  "t333": {
+    "scope": "g.iTree.gcd",
+    "value": "b == 0",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t333",
+    "offset": 8
+  },
+  "t334": {
+    "scope": "g.iTree.gcd",
+    "value": "mod()",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t334",
+    "offset": 12
+  },
+  "t335": {
+    "scope": "g.iTree.gcd",
+    "value": "gcd()",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t335",
+    "offset": 16
+  },
+  "t336": {
+    "scope": "g.iTree.fib",
+    "value": "root == 0",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t336",
+    "offset": 4
+  },
+  "t337": {
+    "scope": "g.iTree.fib",
+    "value": "root == 1",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t337",
+    "offset": 8
+  },
+  "t338": {
+    "scope": "g.iTree.fib",
+    "value": "root - 1",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t338",
+    "offset": 12
+  },
+  "t339": {
+    "scope": "g.iTree.fib",
+    "value": "fib()",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t339",
+    "offset": 16
+  },
+  "t340": {
+    "scope": "g.iTree.fib",
+    "value": "root - 2",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t340",
+    "offset": 20
+  },
+  "t341": {
+    "scope": "g.iTree.fib",
+    "value": "fib()",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t341",
+    "offset": 24
+  },
+  "t342": {
+    "scope": "g.iTree.fib",
+    "value": "fib() + fib()",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t342",
+    "offset": 28
+  },
+  "t343": {
+    "scope": "g.iTree.add",
+    "value": "root == null",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t343",
+    "offset": 4
+  },
+  "t344": {
+    "scope": "g.iTree.add",
+    "value": "iNode",
+    "kind": "temp",
+    "data": {
+      "type": "iNode",
+      "constructor": true
+    },
+    "key": "t344",
+    "offset": 8
+  },
+  "t345": {
+    "scope": "g.iTree.add",
+    "value": "insert()",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t345",
+    "offset": 12
+  },
+  "t346": {
+    "scope": "g.iTree.insert",
+    "value": "root",
+    "kind": "temp",
+    "data": {
+      "type": "char",
+      "refVar": true
+    },
+    "key": "t346",
+    "offset": 8
+  },
+  "t347": {
+    "scope": "g.iTree.insert",
+    "value": "key < root",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t347",
+    "offset": 12
+  },
+  "t348": {
+    "scope": "g.iTree.insert",
+    "value": "left",
+    "kind": "temp",
+    "data": {
+      "type": "iNode",
+      "refVar": true
+    },
+    "key": "t348",
+    "offset": 16
+  },
+  "t349": {
+    "scope": "g.iTree.insert",
+    "value": "left == null",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t349",
+    "offset": 20
+  },
+  "t350": {
+    "scope": "g.iTree.insert",
+    "value": "left",
+    "kind": "temp",
+    "data": {
+      "type": "iNode",
+      "refVar": true
+    },
+    "key": "t350",
+    "offset": 24
+  },
+  "t351": {
+    "scope": "g.iTree.insert",
+    "value": "iNode",
+    "kind": "temp",
+    "data": {
+      "type": "iNode",
+      "constructor": true
+    },
+    "key": "t351",
+    "offset": 28
+  },
+  "t352": {
+    "scope": "g.iTree.insert",
+    "value": "left",
+    "kind": "temp",
+    "data": {
+      "type": "iNode",
+      "refVar": true
+    },
+    "key": "t352",
+    "offset": 32
+  },
+  "t353": {
+    "scope": "g.iTree.insert",
+    "value": "insert()",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t353",
+    "offset": 36
+  },
+  "t354": {
+    "scope": "g.iTree.insert",
+    "value": "root",
+    "kind": "temp",
+    "data": {
+      "type": "char",
+      "refVar": true
+    },
+    "key": "t354",
+    "offset": 40
+  },
+  "t355": {
+    "scope": "g.iTree.insert",
+    "value": "key > root",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t355",
+    "offset": 44
+  },
+  "t356": {
+    "scope": "g.iTree.insert",
+    "value": "right",
+    "kind": "temp",
+    "data": {
+      "type": "iNode",
+      "refVar": true
+    },
+    "key": "t356",
+    "offset": 48
+  },
+  "t357": {
+    "scope": "g.iTree.insert",
+    "value": "right == null",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t357",
+    "offset": 52
+  },
+  "t358": {
+    "scope": "g.iTree.insert",
+    "value": "right",
+    "kind": "temp",
+    "data": {
+      "type": "iNode",
+      "refVar": true
+    },
+    "key": "t358",
+    "offset": 56
+  },
+  "t359": {
+    "scope": "g.iTree.insert",
+    "value": "iNode",
+    "kind": "temp",
+    "data": {
+      "type": "iNode",
+      "constructor": true
+    },
+    "key": "t359",
+    "offset": 60
+  },
+  "t360": {
+    "scope": "g.iTree.insert",
+    "value": "right",
+    "kind": "temp",
+    "data": {
+      "type": "iNode",
+      "refVar": true
+    },
+    "key": "t360",
+    "offset": 64
+  },
+  "t361": {
+    "scope": "g.iTree.insert",
+    "value": "insert()",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t361",
+    "offset": 68
+  },
+  "t362": {
+    "scope": "g.iTree.insert",
+    "value": "inc()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t362",
+    "offset": 72
+  },
+  "t363": {
+    "scope": "g.iTree.print",
+    "value": "inorder()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t363",
+    "offset": 0
+  },
+  "t364": {
+    "scope": "g.iTree.inorder",
+    "value": "node == null",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t364",
+    "offset": 4
+  },
+  "t365": {
+    "scope": "g.iTree.inorder",
+    "value": "left",
+    "kind": "temp",
+    "data": {
+      "type": "iNode",
+      "refVar": true
+    },
+    "key": "t365",
+    "offset": 8
+  },
+  "t366": {
+    "scope": "g.iTree.inorder",
+    "value": "inorder()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t366",
+    "offset": 12
+  },
+  "t367": {
+    "scope": "g.iTree.inorder",
+    "value": "visit()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t367",
+    "offset": 16
+  },
+  "t368": {
+    "scope": "g.iTree.inorder",
+    "value": "right",
+    "kind": "temp",
+    "data": {
+      "type": "iNode",
+      "refVar": true
+    },
+    "key": "t368",
+    "offset": 20
+  },
+  "t369": {
+    "scope": "g.iTree.inorder",
+    "value": "inorder()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t369",
+    "offset": 24
+  },
+  "t370": {
+    "scope": "g.iTree.visit",
+    "value": "root",
+    "kind": "temp",
+    "data": {
+      "type": "char",
+      "refVar": true
+    },
+    "key": "t370",
+    "offset": 4
+  },
+  "t371": {
+    "scope": "g.iTree.visit",
+    "value": "cnt",
+    "kind": "temp",
+    "data": {
+      "type": "int",
+      "refVar": true
+    },
+    "key": "t371",
+    "offset": 8
+  },
+  "t372": {
+    "scope": "g.iTree.visit",
+    "value": "cnt",
+    "kind": "temp",
+    "data": {
+      "type": "int",
+      "refVar": true
+    },
+    "key": "t372",
+    "offset": 12
+  },
+  "t373": {
+    "scope": "g.iTree.visit",
+    "value": "fib()",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t373",
+    "offset": 16
+  },
+  "t374": {
+    "scope": "g.iNode.inc",
+    "value": "cnt + 1",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t374",
+    "offset": 0
+  },
+  "t375": {
+    "scope": "g.Message.Message",
+    "value": "[object Object]",
+    "kind": "temp",
+    "data": {
+      "type": "@:char"
+    },
+    "key": "t375",
+    "offset": 0
+  },
+  "t376": {
+    "scope": "g.Message.Message",
+    "value": "[object Object]",
+    "kind": "temp",
+    "data": {
+      "type": "@:char"
+    },
+    "key": "t376",
+    "offset": 4
+  },
+  "t377": {
+    "scope": "g.Message.Message",
+    "value": "msg[0]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t377",
+    "offset": 8
+  },
+  "t378": {
+    "scope": "g.Message.Message",
+    "value": "msg[1]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t378",
+    "offset": 12
+  },
+  "t379": {
+    "scope": "g.Message.Message",
+    "value": "msg[2]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t379",
+    "offset": 16
+  },
+  "t380": {
+    "scope": "g.Message.Message",
+    "value": "msg[3]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t380",
+    "offset": 20
+  },
+  "t381": {
+    "scope": "g.Message.Message",
+    "value": "msg[4]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t381",
+    "offset": 24
+  },
+  "t382": {
+    "scope": "g.Message.Message",
+    "value": "msg[5]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t382",
+    "offset": 28
+  },
+  "t383": {
+    "scope": "g.Message.Message",
+    "value": "msg[6]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t383",
+    "offset": 32
+  },
+  "t384": {
+    "scope": "g.Message.Message",
+    "value": "msg[7]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t384",
+    "offset": 36
+  },
+  "t385": {
+    "scope": "g.Message.Message",
+    "value": "msg[8]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t385",
+    "offset": 40
+  },
+  "t386": {
+    "scope": "g.Message.Message",
+    "value": "msg[9]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t386",
+    "offset": 44
+  },
+  "t387": {
+    "scope": "g.Message.Message",
+    "value": "msg[10]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t387",
+    "offset": 48
+  },
+  "t388": {
+    "scope": "g.Message.Message",
+    "value": "msg[11]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t388",
+    "offset": 52
+  },
+  "t389": {
+    "scope": "g.Message.Message",
+    "value": "msg[12]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t389",
+    "offset": 56
+  },
+  "t390": {
+    "scope": "g.Message.Message",
+    "value": "msg[13]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t390",
+    "offset": 60
+  },
+  "t391": {
+    "scope": "g.Message.Message",
+    "value": "msg[i]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t391",
+    "offset": 64
+  },
+  "t392": {
+    "scope": "g.Message.Message",
+    "value": "i + 1",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t392",
+    "offset": 68
+  },
+  "t393": {
+    "scope": "g.Message.Message",
+    "value": "msg[i + 1]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t393",
+    "offset": 72
+  },
+  "t394": {
+    "scope": "g.Message.Message",
+    "value": "i + 2",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t394",
+    "offset": 76
+  },
+  "t395": {
+    "scope": "g.Message.Message",
+    "value": "msg[i + 2]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t395",
+    "offset": 80
+  },
+  "t396": {
+    "scope": "g.Message.Message",
+    "value": "i + 3",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t396",
+    "offset": 84
+  },
+  "t397": {
+    "scope": "g.Message.Message",
+    "value": "msg[i + 3]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t397",
+    "offset": 88
+  },
+  "t398": {
+    "scope": "g.Message.Message",
+    "value": "i + 4",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t398",
+    "offset": 92
+  },
+  "t399": {
+    "scope": "g.Message.Message",
+    "value": "msg[i + 4]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t399",
+    "offset": 96
+  },
+  "t400": {
+    "scope": "g.Message.Message",
+    "value": "i + 5",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t400",
+    "offset": 100
+  },
+  "t401": {
+    "scope": "g.Message.Message",
+    "value": "msg[i + 5]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t401",
+    "offset": 104
+  },
+  "t402": {
+    "scope": "g.Message.Message",
+    "value": "i + 6",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t402",
+    "offset": 108
+  },
+  "t403": {
+    "scope": "g.Message.Message",
+    "value": "msg[i + 6]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t403",
+    "offset": 112
+  },
+  "t404": {
+    "scope": "g.Message.Message",
+    "value": "i + 7",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t404",
+    "offset": 116
+  },
+  "t405": {
+    "scope": "g.Message.Message",
+    "value": "msg[i + 7]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t405",
+    "offset": 120
+  },
+  "t406": {
+    "scope": "g.Message.Message",
+    "value": "i + 8",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t406",
+    "offset": 124
+  },
+  "t407": {
+    "scope": "g.Message.Message",
+    "value": "msg[i + 8]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t407",
+    "offset": 128
+  },
+  "t408": {
+    "scope": "g.Message.Message",
+    "value": "i + 9",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t408",
+    "offset": 132
+  },
+  "t409": {
+    "scope": "g.Message.Message",
+    "value": "msg[i + 9]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t409",
+    "offset": 136
+  },
+  "t410": {
+    "scope": "g.Message.Message",
+    "value": "msg[24]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t410",
+    "offset": 140
+  },
+  "t411": {
+    "scope": "g.Message.Message",
+    "value": "msg[25]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t411",
+    "offset": 144
+  },
+  "t412": {
+    "scope": "g.Message.Message",
+    "value": "msg[26]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t412",
+    "offset": 148
+  },
+  "t413": {
+    "scope": "g.Message.Message",
+    "value": "msg[27]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t413",
+    "offset": 152
+  },
+  "t414": {
+    "scope": "g.Message.Message",
+    "value": "msg[28]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t414",
+    "offset": 156
+  },
+  "t415": {
+    "scope": "g.Message.print",
+    "value": "i <= end",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t415",
+    "offset": 8
+  },
+  "t416": {
+    "scope": "g.Message.print",
+    "value": "msg[i]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t416",
+    "offset": 12
+  },
+  "t417": {
+    "scope": "g.Message.print",
+    "value": "i + 1",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t417",
+    "offset": 16
+  },
+  "t418": {
+    "scope": "g.Message.msg1",
+    "value": "print()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t418",
+    "offset": 4
+  },
+  "t419": {
+    "scope": "g.Message.msg2",
+    "value": "i + 8",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t419",
+    "offset": 4
+  },
+  "t420": {
+    "scope": "g.Message.msg2",
+    "value": "print()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t420",
+    "offset": 8
+  },
+  "t421": {
+    "scope": "g.Message.msg2",
+    "value": "msg[5]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t421",
+    "offset": 12
+  },
+  "t422": {
+    "scope": "g.Message.msg2",
+    "value": "print()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t422",
+    "offset": 16
+  },
+  "t423": {
+    "scope": "g.Message.msg3",
+    "value": "print()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t423",
+    "offset": 0
+  },
+  "t424": {
+    "scope": "g.Message.msg3",
+    "value": "print()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t424",
+    "offset": 4
+  },
+  "t425": {
+    "scope": "g.Message.msg3",
+    "value": "print()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t425",
+    "offset": 8
+  },
+  "t426": {
+    "scope": "g.Syntax.checkit",
+    "value": "[object Object]",
+    "kind": "temp",
+    "data": {
+      "type": "@:char"
+    },
+    "key": "t426",
+    "offset": 12
+  },
+  "t427": {
+    "scope": "g.Syntax.checkit",
+    "value": "[object Object]",
+    "kind": "temp",
+    "data": {
+      "type": "@:char"
+    },
+    "key": "t427",
+    "offset": 16
+  },
+  "t428": {
+    "scope": "g.Syntax.checkit",
+    "value": "[object Object]",
+    "kind": "temp",
+    "data": {
+      "type": "@:int"
+    },
+    "key": "t428",
+    "offset": 20
+  },
+  "t429": {
+    "scope": "g.Syntax.checkit",
+    "value": "[object Object]",
+    "kind": "temp",
+    "data": {
+      "type": "@:int"
+    },
+    "key": "t429",
+    "offset": 24
+  },
+  "t430": {
+    "scope": "g.Syntax.checkit",
+    "value": "[object Object]",
+    "kind": "temp",
+    "data": {
+      "type": "@:Syntax"
+    },
+    "key": "t430",
+    "offset": 28
+  },
+  "t431": {
+    "scope": "g.Syntax.checkit",
+    "value": "[object Object]",
+    "kind": "temp",
+    "data": {
+      "type": "@:Syntax"
+    },
+    "key": "t431",
+    "offset": 32
+  },
+  "t432": {
+    "scope": "g.Syntax.checkit",
+    "value": "cc[1]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t432",
+    "offset": 36
+  },
+  "t433": {
+    "scope": "g.Syntax.checkit",
+    "value": "cc[2]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t433",
+    "offset": 40
+  },
+  "t434": {
+    "scope": "g.Syntax.checkit",
+    "value": "cc[31]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t434",
+    "offset": 44
+  },
+  "t435": {
+    "scope": "g.Syntax.checkit",
+    "value": "cc[100]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t435",
+    "offset": 48
+  },
+  "t436": {
+    "scope": "g.Syntax.checkit",
+    "value": "5 + i",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t436",
+    "offset": 52
+  },
+  "t437": {
+    "scope": "g.Syntax.checkit",
+    "value": "cc[5 + i]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t437",
+    "offset": 56
+  },
+  "t438": {
+    "scope": "g.Syntax.checkit",
+    "value": "cc[10]",
+    "kind": "temp",
+    "data": {
+      "type": "char"
+    },
+    "key": "t438",
+    "offset": 60
+  },
+  "t439": {
+    "scope": "g.Syntax.checkit",
+    "value": "ii[1]",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t439",
+    "offset": 64
+  },
+  "t440": {
+    "scope": "g.Syntax.checkit",
+    "value": "ii[1]",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t440",
+    "offset": 68
+  },
+  "t441": {
+    "scope": "g.Syntax.checkit",
+    "value": "ii[4]",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t441",
+    "offset": 72
+  },
+  "t442": {
+    "scope": "g.Syntax.checkit",
+    "value": "5 + i",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t442",
+    "offset": 76
+  },
+  "t443": {
+    "scope": "g.Syntax.checkit",
+    "value": "ii[5000]",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t443",
+    "offset": 80
+  },
+  "t444": {
+    "scope": "g.Syntax.checkit",
+    "value": "5 + i",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t444",
+    "offset": 84
+  },
+  "t445": {
+    "scope": "g.Syntax.checkit",
+    "value": "ii[0]",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t445",
+    "offset": 88
+  },
+  "t446": {
+    "scope": "g.Syntax.checkit",
+    "value": "ss[0]",
+    "kind": "temp",
+    "data": {
+      "type": "Syntax"
+    },
+    "key": "t446",
+    "offset": 92
+  },
+  "t447": {
+    "scope": "g.Syntax.checkit",
+    "value": "Syntax",
+    "kind": "temp",
+    "data": {
+      "type": "Syntax",
+      "constructor": true
+    },
+    "key": "t447",
+    "offset": 96
+  },
+  "t448": {
+    "scope": "g.Syntax.checkit",
+    "value": "ss[i]",
+    "kind": "temp",
+    "data": {
+      "type": "Syntax"
+    },
+    "key": "t448",
+    "offset": 100
+  },
+  "t449": {
+    "scope": "g.Syntax.checkit",
+    "value": "i + 1",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t449",
+    "offset": 104
+  },
+  "t450": {
+    "scope": "g.Syntax.checkit",
+    "value": "ss[i + 1]",
+    "kind": "temp",
+    "data": {
+      "type": "Syntax"
+    },
+    "key": "t450",
+    "offset": 108
+  },
+  "t451": {
+    "scope": "g.Syntax.checkit",
+    "value": "7 / 3",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t451",
+    "offset": 112
+  },
+  "t452": {
+    "scope": "g.Syntax.checkit",
+    "value": "i + 7 / 3",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t452",
+    "offset": 116
+  },
+  "t453": {
+    "scope": "g.Syntax.checkit",
+    "value": "ss[i + 7 / 3]",
+    "kind": "temp",
+    "data": {
+      "type": "Syntax"
+    },
+    "key": "t453",
+    "offset": 120
+  },
+  "t454": {
+    "scope": "g.Syntax.checkit",
+    "value": "Syntax",
+    "kind": "temp",
+    "data": {
+      "type": "Syntax",
+      "constructor": true
+    },
+    "key": "t454",
+    "offset": 124
+  },
+  "t455": {
+    "scope": "g.Syntax.which",
+    "value": "i * i",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t455",
+    "offset": 4
+  },
+  "t456": {
+    "scope": "g.main",
+    "value": "[object Object]",
+    "kind": "temp",
+    "data": {
+      "type": "@:int"
+    },
+    "key": "t456",
+    "offset": 32
+  },
+  "t457": {
+    "scope": "g.main",
+    "value": "[object Object]",
+    "kind": "temp",
+    "data": {
+      "type": "@:int"
+    },
+    "key": "t457",
+    "offset": 36
+  },
+  "t458": {
+    "scope": "g.main",
+    "value": "Message",
+    "kind": "temp",
+    "data": {
+      "type": "Message",
+      "constructor": true
+    },
+    "key": "t458",
+    "offset": 40
+  },
+  "t459": {
+    "scope": "g.main",
+    "value": "Butterfly",
+    "kind": "temp",
+    "data": {
+      "type": "Butterfly",
+      "constructor": true
+    },
+    "key": "t459",
+    "offset": 44
+  },
+  "t460": {
+    "scope": "g.main",
+    "value": "iTree",
+    "kind": "temp",
+    "data": {
+      "type": "iTree",
+      "constructor": true
+    },
+    "key": "t460",
+    "offset": 48
+  },
+  "t461": {
+    "scope": "g.main",
+    "value": "nest()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t461",
+    "offset": 52
+  },
+  "t462": {
+    "scope": "g.main",
+    "value": "msg3()",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t462",
+    "offset": 56
+  },
+  "t463": {
+    "scope": "g.main",
+    "value": "key != '!'",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t463",
+    "offset": 60
+  },
+  "t464": {
+    "scope": "g.main",
+    "value": "cnt < 30",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t464",
+    "offset": 64
+  },
+  "t465": {
+    "scope": "g.main",
+    "value": "cnt < 30 && key != '!'",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t465",
+    "offset": 68
+  },
+  "t466": {
+    "scope": "g.main",
+    "value": "add()",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t466",
+    "offset": 72
+  },
+  "t467": {
+    "scope": "g.main",
+    "value": "msg1()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t467",
+    "offset": 76
+  },
+  "t468": {
+    "scope": "g.main",
+    "value": "print()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t468",
+    "offset": 80
+  },
+  "t469": {
+    "scope": "g.main",
+    "value": "msg2()",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t469",
+    "offset": 84
+  },
+  "t470": {
+    "scope": "g.main",
+    "value": "print()",
+    "kind": "temp",
+    "data": {
+      "type": "void"
+    },
+    "key": "t470",
+    "offset": 88
+  },
+  "t471": {
+    "scope": "g.main",
+    "value": "cnt * 3",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t471",
+    "offset": 92
+  },
+  "t472": {
+    "scope": "g.main",
+    "value": "data[cnt * 3]",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t472",
+    "offset": 96
+  },
+  "t473": {
+    "scope": "g.main",
+    "value": "cnt + 1",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t473",
+    "offset": 100
+  },
+  "t474": {
+    "scope": "g.main",
+    "value": "cnt * 3",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t474",
+    "offset": 104
+  },
+  "t475": {
+    "scope": "g.main",
+    "value": "cnt * 3 + 1",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t475",
+    "offset": 108
+  },
+  "t476": {
+    "scope": "g.main",
+    "value": "data[cnt * 3 + 1]",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t476",
+    "offset": 112
+  },
+  "t477": {
+    "scope": "g.main",
+    "value": "cnt + 2",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t477",
+    "offset": 116
+  },
+  "t478": {
+    "scope": "g.main",
+    "value": "fib()",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t478",
+    "offset": 120
+  },
+  "t479": {
+    "scope": "g.main",
+    "value": "cnt * 3",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t479",
+    "offset": 124
+  },
+  "t480": {
+    "scope": "g.main",
+    "value": "cnt * 3 + 2",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t480",
+    "offset": 128
+  },
+  "t481": {
+    "scope": "g.main",
+    "value": "data[cnt * 3 + 2]",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t481",
+    "offset": 132
+  },
+  "t482": {
+    "scope": "g.main",
+    "value": "cnt * 3",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t482",
+    "offset": 136
+  },
+  "t483": {
+    "scope": "g.main",
+    "value": "data[cnt * 3]",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t483",
+    "offset": 140
+  },
+  "t484": {
+    "scope": "g.main",
+    "value": "cnt * 3",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t484",
+    "offset": 144
+  },
+  "t485": {
+    "scope": "g.main",
+    "value": "cnt * 3 + 1",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t485",
+    "offset": 148
+  },
+  "t486": {
+    "scope": "g.main",
+    "value": "data[cnt * 3 + 1]",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t486",
+    "offset": 152
+  },
+  "t487": {
+    "scope": "g.main",
+    "value": "gcd()",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t487",
+    "offset": 156
+  },
+  "t488": {
+    "scope": "g.main",
+    "value": "cnt + 1",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t488",
+    "offset": 160
+  },
+  "t489": {
+    "scope": "g.main",
+    "value": "msg3()",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t489",
+    "offset": 164
+  },
+  "t490": {
+    "scope": "g.main",
+    "value": "cnt * 3",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t490",
+    "offset": 168
+  },
+  "t491": {
+    "scope": "g.main",
+    "value": "i < cnt * 3",
+    "kind": "temp",
+    "data": {
+      "type": "bool"
+    },
+    "key": "t491",
+    "offset": 172
+  },
+  "t492": {
+    "scope": "g.main",
+    "value": "data[i]",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t492",
+    "offset": 176
+  },
+  "t493": {
+    "scope": "g.main",
+    "value": "i + 1",
+    "kind": "temp",
+    "data": {
+      "type": "int"
+    },
+    "key": "t493",
+    "offset": 180
+  }
+}
